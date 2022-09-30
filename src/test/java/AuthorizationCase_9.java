@@ -17,7 +17,7 @@ public class AuthorizationCase_9 {
     public static WebDriver driver;
 
     @Parameters({"StartUrl", "UrlAssert"})
-    public void case_1(String StartUrl, String UrlAssert) throws InterruptedException {
+    public void case_9(String StartUrl, String UrlAssert) throws InterruptedException {
         //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         System.setProperty("webdriver.chrome.whitelistedIps", "");
 
