@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T13:14:07 EEST" name="Authorization Tests" finished-at="2022-09-30T13:16:41 EEST" duration-ms="154336">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T13:14:07 EEST" name="Case_1" finished-at="2022-09-30T13:14:22 EEST" duration-ms="14944">
+      <class name="AuthorizationCase_1">
+        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_1@70325e14]" started-at="2022-09-30T13:14:07 EEST" name="case_1" finished-at="2022-09-30T13:14:22 EEST" duration-ms="14881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/spot/trading/BTCUSDT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_1 -->
+      </class> <!-- AuthorizationCase_1 -->
+    </test> <!-- Case_1 -->
+    <test started-at="2022-09-30T13:14:22 EEST" name="Case_2" finished-at="2022-09-30T13:14:30 EEST" duration-ms="8354">
+      <class name="AuthorizationCase_2">
+        <test-method signature="case_2(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_2@623a8092]" started-at="2022-09-30T13:14:22 EEST" name="case_2" finished-at="2022-09-30T13:14:30 EEST" duration-ms="8354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_2 -->
+      </class> <!-- AuthorizationCase_2 -->
+    </test> <!-- Case_2 -->
+    <test started-at="2022-09-30T13:14:30 EEST" name="Case_3" finished-at="2022-09-30T13:14:41 EEST" duration-ms="11163">
+      <class name="AuthorizationCase_3">
+        <test-method signature="case_3(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_3@57250572]" started-at="2022-09-30T13:14:30 EEST" name="case_3" finished-at="2022-09-30T13:14:41 EEST" duration-ms="11161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_3 -->
+      </class> <!-- AuthorizationCase_3 -->
+    </test> <!-- Case_3 -->
+    <test started-at="2022-09-30T13:14:41 EEST" name="Case_4" finished-at="2022-09-30T13:14:49 EEST" duration-ms="8138">
+      <class name="AuthorizationCase_4">
+        <test-method signature="case_4(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_4@11fc564b]" started-at="2022-09-30T13:14:41 EEST" name="case_4" finished-at="2022-09-30T13:14:49 EEST" duration-ms="8121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_4 -->
+      </class> <!-- AuthorizationCase_4 -->
+    </test> <!-- Case_4 -->
+    <test started-at="2022-09-30T13:14:49 EEST" name="Case_5" finished-at="2022-09-30T13:14:58 EEST" duration-ms="8226">
+      <class name="AuthorizationCase_5">
+        <test-method signature="case_5(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_5@32910148]" started-at="2022-09-30T13:14:49 EEST" name="case_5" finished-at="2022-09-30T13:14:58 EEST" duration-ms="8210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_5 -->
+      </class> <!-- AuthorizationCase_5 -->
+    </test> <!-- Case_5 -->
+    <test started-at="2022-09-30T13:14:58 EEST" name="Case_6" finished-at="2022-09-30T13:15:06 EEST" duration-ms="7977">
+      <class name="AuthorizationCase_6">
+        <test-method signature="case_6(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_6@484970b0]" started-at="2022-09-30T13:14:58 EEST" name="case_6" finished-at="2022-09-30T13:15:06 EEST" duration-ms="7977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_6 -->
+      </class> <!-- AuthorizationCase_6 -->
+    </test> <!-- Case_6 -->
+    <test started-at="2022-09-30T13:15:06 EEST" name="Case_7" finished-at="2022-09-30T13:15:14 EEST" duration-ms="7953">
+      <class name="AuthorizationCase_7">
+        <test-method signature="case_7(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_7@55740540]" started-at="2022-09-30T13:15:06 EEST" name="case_7" finished-at="2022-09-30T13:15:14 EEST" duration-ms="7937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_7 -->
+      </class> <!-- AuthorizationCase_7 -->
+    </test> <!-- Case_7 -->
+    <test started-at="2022-09-30T13:15:14 EEST" name="Case_8" finished-at="2022-09-30T13:15:40 EEST" duration-ms="26405">
+      <class name="AuthorizationCase_8">
+        <test-method signature="case_8(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_8@2a266d09]" started-at="2022-09-30T13:15:14 EEST" name="case_8" finished-at="2022-09-30T13:15:40 EEST" duration-ms="26405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix.com/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_8 -->
+      </class> <!-- AuthorizationCase_8 -->
+    </test> <!-- Case_8 -->
+    <test started-at="2022-09-30T13:15:40 EEST" name="Case_9" finished-at="2022-09-30T13:15:51 EEST" duration-ms="10988">
+      <class name="AuthorizationCase_9">
+        <test-method signature="case_1(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_9@11c9af63]" started-at="2022-09-30T13:15:40 EEST" name="case_1" finished-at="2022-09-30T13:15:51 EEST" duration-ms="10972" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix.com/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix.com/login]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@title='recaptcha challenge expires in two minutes']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'HUAWEI-PC', ip: '172.27.250.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df4726b90f26d8c8a5db730d06022a42, findElement {using=xpath, value=//iframe[@title='recaptcha challenge expires in two minutes']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\YANUVE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55554/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df4726b90f26d8c8a5db730d06022a42]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@title='recaptcha challenge expires in two minutes']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'HUAWEI-PC', ip: '172.27.250.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df4726b90f26d8c8a5db730d06022a42, findElement {using=xpath, value=//iframe[@title='recaptcha challenge expires in two minutes']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\YANUVE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55554/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df4726b90f26d8c8a5db730d06022a42
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at AuthorizationCase_9.case_1(AuthorizationCase_9.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_1 -->
+      </class> <!-- AuthorizationCase_9 -->
+    </test> <!-- Case_9 -->
+    <test started-at="2022-09-30T13:15:51 EEST" name="Case_10" finished-at="2022-09-30T13:15:59 EEST" duration-ms="8376">
+      <class name="AuthorizationCase_10">
+        <test-method signature="case_10(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_10@3943a2be]" started-at="2022-09-30T13:15:51 EEST" name="case_10" finished-at="2022-09-30T13:15:59 EEST" duration-ms="8368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_10 -->
+      </class> <!-- AuthorizationCase_10 -->
+    </test> <!-- Case_10 -->
+    <test started-at="2022-09-30T13:15:59 EEST" name="Case_11" finished-at="2022-09-30T13:16:14 EEST" duration-ms="14331">
+      <class name="AuthorizationCase_11">
+        <test-method signature="case_11(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_11@6bf0219d]" started-at="2022-09-30T13:15:59 EEST" name="case_11" finished-at="2022-09-30T13:16:14 EEST" duration-ms="14331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_11 -->
+      </class> <!-- AuthorizationCase_11 -->
+    </test> <!-- Case_11 -->
+    <test started-at="2022-09-30T13:16:14 EEST" name="Case_12" finished-at="2022-09-30T13:16:27 EEST" duration-ms="13126">
+      <class name="AuthorizationCase_12">
+        <test-method signature="case_12(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_12@671a5887]" started-at="2022-09-30T13:16:14 EEST" name="case_12" finished-at="2022-09-30T13:16:27 EEST" duration-ms="13126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/sign-up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_12 -->
+      </class> <!-- AuthorizationCase_12 -->
+    </test> <!-- Case_12 -->
+    <test started-at="2022-09-30T13:16:27 EEST" name="Case_13" finished-at="2022-09-30T13:16:41 EEST" duration-ms="14266">
+      <class name="AuthorizationCase_13">
+        <test-method signature="case_11(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_13@1356d4d4]" started-at="2022-09-30T13:16:27 EEST" name="case_11" finished-at="2022-09-30T13:16:41 EEST" duration-ms="14264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://coinzix-stage1.intary.net/forgot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_11 -->
+      </class> <!-- AuthorizationCase_13 -->
+    </test> <!-- Case_13 -->
+  </suite> <!-- Authorization Tests -->
+</testng-results>
