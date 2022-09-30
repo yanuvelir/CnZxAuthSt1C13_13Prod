@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Authorization Tests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Case_9(failed)">
+  <test thread-count="5" name="Case_12(failed)">
     <parameter name="UrlAssert" value="https://coinzix.com/login"/>
     <parameter name="StartUrl" value="https://coinzix.com/login"/>
     <classes>
-      <class name="AuthorizationCase_9">
+      <class name="AuthorizationCase_12">
         <methods>
-          <include name="case_1" invocation-numbers="0"/>
+          <include name="case_12" invocation-numbers="0"/>
         </methods>
-      </class> <!-- AuthorizationCase_9 -->
+      </class> <!-- AuthorizationCase_12 -->
     </classes>
-  </test> <!-- Case_9(failed) -->
+  </test> <!-- Case_12(failed) -->
 </suite> <!-- Failed suite [Authorization Tests] -->
