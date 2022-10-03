@@ -33,11 +33,6 @@ public class AuthorizationCase_12 {
         driver.manage().window().maximize();
 
 
-        // //Находим и нажимаем клавишу Log in
-        WebElement logBtn = driver.findElement(By.xpath
-                ("//button[@class='submit__button']"));
-        logBtn.click();
-
         Thread.sleep(2500);
         //Эмитируем передвижения элемента в центр кнопки
         List<WebElement> SignUpBtn = driver.findElements(By.xpath("//a[contains(text(),'Sign Up')]"));
