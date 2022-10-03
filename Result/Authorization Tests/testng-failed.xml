@@ -1,9 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Authorization Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Case_1(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/spot/trading/BTCUSDT"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_1">
+        <methods>
+          <include name="case_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_1 -->
+    </classes>
+  </test> <!-- Case_1(failed) -->
+  <test thread-count="5" name="Case_2(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_2">
+        <methods>
+          <include name="case_2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_2 -->
+    </classes>
+  </test> <!-- Case_2(failed) -->
+  <test thread-count="5" name="Case_3(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_3">
+        <methods>
+          <include name="case_3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_3 -->
+    </classes>
+  </test> <!-- Case_3(failed) -->
+  <test thread-count="5" name="Case_4(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_4">
+        <methods>
+          <include name="case_4" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_4 -->
+    </classes>
+  </test> <!-- Case_4(failed) -->
+  <test thread-count="5" name="Case_5(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_5">
+        <methods>
+          <include name="case_5" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_5 -->
+    </classes>
+  </test> <!-- Case_5(failed) -->
+  <test thread-count="5" name="Case_6(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_6">
+        <methods>
+          <include name="case_6" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_6 -->
+    </classes>
+  </test> <!-- Case_6(failed) -->
+  <test thread-count="5" name="Case_7(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_7">
+        <methods>
+          <include name="case_7" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_7 -->
+    </classes>
+  </test> <!-- Case_7(failed) -->
+  <test thread-count="5" name="Case_8(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/spot/trading/BTCUSDT"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_8">
+        <methods>
+          <include name="case_8" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_8 -->
+    </classes>
+  </test> <!-- Case_8(failed) -->
+  <test thread-count="5" name="Case_9(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_9">
+        <methods>
+          <include name="case_9" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_9 -->
+    </classes>
+  </test> <!-- Case_9(failed) -->
+  <test thread-count="5" name="Case_10(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_10">
+        <methods>
+          <include name="case_10" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_10 -->
+    </classes>
+  </test> <!-- Case_10(failed) -->
+  <test thread-count="5" name="Case_11(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_11">
+        <methods>
+          <include name="case_11" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_11 -->
+    </classes>
+  </test> <!-- Case_11(failed) -->
   <test thread-count="5" name="Case_12(failed)">
-    <parameter name="UrlAssert" value="https://coinzix.com/login"/>
-    <parameter name="StartUrl" value="https://coinzix.com/login"/>
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/sign-up"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
     <classes>
       <class name="AuthorizationCase_12">
         <methods>
@@ -12,4 +133,15 @@
       </class> <!-- AuthorizationCase_12 -->
     </classes>
   </test> <!-- Case_12(failed) -->
+  <test thread-count="5" name="Case_13(failed)">
+    <parameter name="UrlAssert" value="https://beta.coinzix.com/forgot"/>
+    <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+    <classes>
+      <class name="AuthorizationCase_13">
+        <methods>
+          <include name="case_11" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AuthorizationCase_13 -->
+    </classes>
+  </test> <!-- Case_13(failed) -->
 </suite> <!-- Failed suite [Authorization Tests] -->

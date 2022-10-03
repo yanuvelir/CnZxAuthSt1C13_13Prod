@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Authorization Tests">
+
+    <test name="Case_1">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/spot/trading/BTCUSDT"/>
+    <classes>
+        <class name="AuthorizationCase_1"/>
+    </classes>
+    </test>
+
+    <test name="Case_2">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_2"/>
+        </classes>
+    </test>
+
+    <test name="Case_3">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_3"/>
+        </classes>
+    </test>
+
+    <test name="Case_4">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_4"/>
+        </classes>
+    </test>
+
+    <test name="Case_5">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_5"/>
+        </classes>
+    </test>
+
+    <test name="Case_6">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_6"/>
+        </classes>
+    </test>
+
+    <test name="Case_7">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_7"/>
+        </classes>
+    </test>
+
+<!--    Url=prod-->
+    <test name="Case_8">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+<!-- "UrlAssert" is not used       -->
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/spot/trading/BTCUSDT"/>
+        <classes>
+            <class name="AuthorizationCase_8"/>
+        </classes>
+    </test>
+
+    <test name="Case_9">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_9"/>
+        </classes>
+    </test>
+
+    <test name="Case_10">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_10"/>
+        </classes>
+    </test>
+
+    <test name="Case_11">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/login"/>
+        <classes>
+            <class name="AuthorizationCase_11"/>
+        </classes>
+    </test>
+
+    <test name="Case_12">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/sign-up"/>
+        <classes>
+            <class name="AuthorizationCase_12"/>
+        </classes>
+    </test>
+
+    <test name="Case_13">
+        <parameter name="StartUrl" value="https://beta.coinzix.com/login"/>
+        <parameter name="UrlAssert" value="https://beta.coinzix.com/forgot"/>
+        <classes>
+            <class name="AuthorizationCase_13"/>
+        </classes>
+    </test>
+
+</suite>
