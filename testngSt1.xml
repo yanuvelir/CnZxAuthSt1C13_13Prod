@@ -5,13 +5,13 @@
 
 <suite name="Authorization Tests">
 
-    <test name="Case_1">
-        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net/login"/>
-        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/spot/trading/BTCUSDT"/>
-    <classes>
-        <class name="AuthorizationCase_1"/>
-    </classes>
-    </test>
+<!--    <test name="Case_1">-->
+<!--        <parameter name="StartUrl" value="https://coinzix-stage1.intary.net/login"/>-->
+<!--        <parameter name="UrlAssert" value="https://coinzix-stage1.intary.net/spot/trading/BTCUSDT"/>-->
+<!--    <classes>-->
+<!--        <class name="AuthorizationCase_1"/>-->
+<!--    </classes>-->
+<!--    </test>-->
 
     <test name="Case_2">
         <parameter name="StartUrl" value="https://coinzix-stage1.intary.net/login"/>
