@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T18:07:42 EEST" name="Authorization Tests" finished-at="2022-10-03T18:07:59 EEST" duration-ms="16971">
+  <suite started-at="2022-10-04T14:12:21 EEST" name="Authorization Tests" finished-at="2022-10-04T14:12:40 EEST" duration-ms="19034">
     <groups>
     </groups>
-    <test started-at="2022-10-03T18:07:42 EEST" name="Case_12" finished-at="2022-10-03T18:07:59 EEST" duration-ms="16971">
-      <class name="AuthorizationCase_12">
-        <test-method signature="case_12(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_12@2df3b89c]" started-at="2022-10-03T18:07:43 EEST" name="case_12" finished-at="2022-10-03T18:07:59 EEST" duration-ms="16911" status="PASS">
+    <test started-at="2022-10-04T14:12:21 EEST" name="Case_13" finished-at="2022-10-04T14:12:40 EEST" duration-ms="19034">
+      <class name="AuthorizationCase_13">
+        <test-method signature="case_11(java.lang.String,java.lang.String)[pri:0, instance:AuthorizationCase_13@6200f9cb]" started-at="2022-10-04T14:12:21 EEST" name="case_11" finished-at="2022-10-04T14:12:40 EEST" duration-ms="18956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://coinzix-stage1.intary.net/login]]>
+                <![CDATA[https://coinzix.com/login]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://coinzix-stage1.intary.net/sign-up]]>
+                <![CDATA[https://coinzix.com/forgot]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- case_12 -->
-      </class> <!-- AuthorizationCase_12 -->
-    </test> <!-- Case_12 -->
+        </test-method> <!-- case_11 -->
+      </class> <!-- AuthorizationCase_13 -->
+    </test> <!-- Case_13 -->
   </suite> <!-- Authorization Tests -->
 </testng-results>
