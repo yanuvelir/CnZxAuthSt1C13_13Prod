@@ -52,10 +52,14 @@ public class AuthorizationCase_9 {
         logBtn.click();
 
         Thread.sleep(6000);
+try {
+
 
         WebElement CaptchaExist = driver.findElement(By.xpath("//iframe[@title='recaptcha challenge expires in two minutes']"));
         System.out.println(CaptchaExist.getClass());
-
+} catch (Exception e) {
+    e.printStackTrace();
+}
         //Копируем URL текущей страницы
         String GetCurrUrl = driver.getCurrentUrl();
         System.out.println(GetCurrUrl);
