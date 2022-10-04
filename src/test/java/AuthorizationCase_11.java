@@ -39,7 +39,7 @@ public class AuthorizationCase_11 {
         Actions action = new Actions(driver);
         action.moveToElement(logBtn).perform();
 
-        Thread.sleep(2500);
+        Thread.sleep(3500);
         //Считываем цвет кнопки - Background color
         String BackGroundClr = logBtn.getCssValue("background-color");
         String HexBackGroundClr = Color.fromString(BackGroundClr).asHex();

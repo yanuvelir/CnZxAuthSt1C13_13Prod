@@ -42,7 +42,7 @@ public class AuthorizationCase_13 {
         Actions action = new Actions(driver);
         action.moveToElement(ForgotPsswBtn).perform();
 
-        Thread.sleep(2500);
+        Thread.sleep(3500);
         //Считываем цвет кнопки - Background color
         String BackGroundClr = ForgotPsswBtn.getCssValue("background-color");
         String HexBackGroundClr = Color.fromString(BackGroundClr).asHex();

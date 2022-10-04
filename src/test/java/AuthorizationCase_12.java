@@ -46,7 +46,7 @@ public class AuthorizationCase_12 {
         Actions action = new Actions(driver);
         action.moveToElement(SubmitBtn).perform();
 
-        Thread.sleep(1500);
+        Thread.sleep(3500);
         //Считываем цвет кнопки - Background color
         String BackGroundClr = SubmitBtn.getCssValue("background-color");
         String HexBackGroundClr = Color.fromString(BackGroundClr).asHex();
